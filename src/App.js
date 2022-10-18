@@ -14,7 +14,7 @@ function App() {
     <>
       <div className='navbar'>
         <h3>Counter {(isLit) ? 'light' : 'dark'}</h3>
-        <button onClick={toggle}>sasasas</button>
+        <button onClick={toggle}>Toggle Theme</button>
 
       </div>
       <div className='counter'>
