@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+
 body {
   display: flex;
   justify-content: center;
@@ -12,7 +15,6 @@ body {
   background-color: black;
   color: white;
 }
-
 
 h1 {
   text-transform: uppercase;
@@ -44,9 +46,6 @@ button {
     4px 4px 5px 0px rgba(0, 0, 0, .1);
   outline: none;
 }
-
-
-
 
 .btn-12 {
   position: relative;
