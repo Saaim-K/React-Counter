@@ -10,7 +10,9 @@
   flex-direction: column;
 }
 .btn{
-  border: 2px solid green;
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
 }
 
 
