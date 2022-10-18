@@ -11,7 +11,7 @@ function App() {
       <div>
 
       </div>
-      <div>
+      <div className='counter'>
         <h1>Counter {counter}</h1>
         <div className='btn'>
           <button className="custom-btn btn-12" onClick={() => changeCounter(counter + 1)}><span>CLICK!</span><span>INCREMENT</span></button>
