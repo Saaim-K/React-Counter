@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 
 
 body {
@@ -9,7 +8,7 @@ body {
 }
 
 h1 {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 4rem;
   background: linear-gradient(to right, #f32170, #ffeb07, #2196f3, #ff00eb);
   -webkit-text-fill-color: transparent;
