@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 
-
+*{
+  padding: 0;
+  margin: 0;
+}
 .counter{
-  border: 2px solid red;
   display: flex ;
   align-items: center;
   flex-direction: column;
+}
+.btn{
+  border: 2px solid green;
 }
 
 
@@ -18,16 +23,12 @@ h1 {
   font-family: 'Comfortaa', cursive;
 }
 
-button {
-  margin-right: 60px;
-}
-
 .custom-btn {
   width: 130px;
   height: 40px;
   color: #fff;
   border-radius: 5px;
-  padding: 10px 25px;
+  padding: 10px 20px;
   font-family: 'Lato', sans-serif;
   font-weight: 500;
   background: transparent;
