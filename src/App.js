@@ -3,12 +3,14 @@ import { useState } from 'react';
 
 function App() {
   const [counter, changeCounter] = useState(0);
+  const {isLit,setLit}=useState(true)
 
 
 
   return (
     <>
-      <div className=''>
+      <div className='navbar'>
+        <h3>Counter {isLit}</h3>
 
       </div>
       <div className='counter'>

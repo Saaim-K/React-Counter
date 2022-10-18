@@ -4,7 +4,9 @@
   padding: 0;
   margin: 0;
 }
+.navbar{
 
+}
 
 
 
@@ -19,7 +21,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
+  height: 80vh;
 }
 .btn{
   width: 25%;
