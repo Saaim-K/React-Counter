@@ -14,8 +14,6 @@
   display: flex;
   justify-content: space-around;
 }
-
-
 h1 {
   text-transform: uppercase;
   font-size: 4rem;
@@ -23,8 +21,8 @@ h1 {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-family: 'Comfortaa', cursive;
+  margin-bottom: 20px;
 }
-
 .custom-btn {
   width: 130px;
   height: 40px;
@@ -43,7 +41,6 @@ h1 {
     4px 4px 5px 0px rgba(0, 0, 0, .1);
   outline: none;
 }
-
 .btn-12 {
   position: relative;
   right: 20px;
@@ -56,7 +53,6 @@ h1 {
   -webkit-perspective: 230px;
   perspective: 230px;
 }
-
 .btn-12 span {
   background: rgb(0, 172, 238);
   background: linear-gradient(0deg, #F53844 0%, #42378F 100%);
@@ -76,7 +72,6 @@ h1 {
   -webkit-transition: all .3s;
   transition: all .3s;
 }
-
 .btn-12 span:nth-child(1) {
   box-shadow:
     -7px -7px 20px 0px #fff9,
@@ -90,7 +85,6 @@ h1 {
   -moz-transform-origin: 50% 50% -20px;
   transform-origin: 50% 50% -20px;
 }
-
 .btn-12 span:nth-child(2) {
   -webkit-transform: rotateX(0deg);
   -moz-transform: rotateX(0deg);
@@ -99,7 +93,6 @@ h1 {
   -moz-transform-origin: 50% 50% -20px;
   transform-origin: 50% 50% -20px;
 }
-
 .btn-12:hover span:nth-child(1) {
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
     7px 7px 20px 0px rgba(0, 0, 0, .1),
@@ -108,7 +101,6 @@ h1 {
   -moz-transform: rotateX(0deg);
   transform: rotateX(0deg);
 }
-
 .btn-12:hover span:nth-child(2) {
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
     7px 7px 20px 0px rgba(0, 0, 0, .1),
