@@ -4,10 +4,22 @@
   padding: 0;
   margin: 0;
 }
+
+
+
+
+
+
+
+
+
+
 .counter{
   display: flex ;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
+  height: 100vh;
 }
 .btn{
   width: 25%;
@@ -52,9 +64,9 @@ h1 {
   line-height: 42px;
   -webkit-perspective: 230px;
   perspective: 230px;
+  font-size: 15px;
 }
 .btn-12 span {
-  background: rgb(0, 172, 238);
   background: linear-gradient(0deg, #F53844 0%, #42378F 100%);
   display: block;
   position: absolute;
@@ -64,7 +76,6 @@ h1 {
     7px 7px 20px 0px rgba(0, 0, 0, .1),
     4px 4px 5px 0px rgba(0, 0, 0, .1);
   border-radius: 5px;
-  margin: 0;
   text-align: center;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
