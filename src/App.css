@@ -4,7 +4,6 @@
   --neon-text-color: #088F8F;
 }
 
-
 * {
   padding: 0;
   margin: 0;
@@ -33,7 +32,6 @@
   font-style: italic;
   color: #fff;
   padding: 4rem 6rem 5.5rem;
-  /*   border: 0.4rem solid #fff; */
   border-radius: 2rem;
   text-transform: uppercase;
   animation: flicker 1.5s infinite alternate;
