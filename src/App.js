@@ -18,7 +18,7 @@ function App() {
 
       </div>
       <div className='counter'>
-        <h1>Counter {counter}</h1>
+        <h1 className={`body-${(isLit) ? 'light' : 'dark'} head`}>Counter {counter}</h1>
         <div className='btn'>
           <button className="custom-btn btn-12" onClick={increment}><span> + 1 </span><span>INCREMENT</span></button>
           <button className="custom-btn btn-12" onClick={decrement}><span> - 1 </span><span>DECREMENT</span></button>
