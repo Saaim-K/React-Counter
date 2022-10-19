@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 
 :root {
-  --neon-text-color: #088F8F;
+  --neon-text-color: #FED128;
 }
 
 * {
@@ -14,12 +14,19 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  height: 80vh;
+  height: 70%;
 }
-
+.main-light{
+  background-color: white;
+  height: 100vh;
+}
+.main-dark{
+  background-color: black;
+  height: 100vh;
+}
 .body-light {
-  text-transform: uppercase;
   font-size: 4rem;
+  text-transform: uppercase;
   background: linear-gradient(to right, #f32170, #ffeb07, #2196f3, #ff00eb);
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -29,20 +36,13 @@
 }
 
 .body-dark {
-  font-style: italic;
+  font-size: 4rem;
   color: #fff;
-  padding: 4rem 6rem 5.5rem;
-  border-radius: 2rem;
   text-transform: uppercase;
+  font-family: 'Comfortaa', cursive;
   animation: flicker 1.5s infinite alternate;
-}
-
-.body-dark::-moz-selection {
-  color: var(--neon-text-color);
-}
-
-.body-dark::selection {
-  color: var(--neon-text-color);
+  margin-bottom: 20px;
+  background-color: black;
 }
 
 .body-dark:focus {
@@ -62,17 +62,12 @@
   100% {
 
     text-shadow:
-      -0.2rem -0.2rem 1rem #fff,
-      0.2rem 0.2rem 1rem #fff,
-      0 0 2rem var(--neon-text-color),
-      0 0 4rem var(--neon-text-color),
-      0 0 6rem var(--neon-text-color),
-      0 0 8rem var(--neon-text-color),
-      0 0 10rem var(--neon-text-color);
+      -0.2rem -0.2rem 1rem #FED128,
+      0.2rem 0.2rem 1rem #FED128;
 
     box-shadow:
-      0 0 .5rem #fff,
-      inset 0 0 .5rem #fff,
+      0 0 .5rem #FED128,
+      inset 0 0 .5rem #FED128,
   }
 
   20%,
