@@ -24,6 +24,7 @@
   font-size: 4rem;
   background: linear-gradient(to right, #f32170, #ffeb07, #2196f3, #ff00eb);
   -webkit-text-fill-color: transparent;
+  background-clip: text;
   -webkit-background-clip: text;
   font-family: 'Comfortaa', cursive;
   margin-bottom: 20px;
