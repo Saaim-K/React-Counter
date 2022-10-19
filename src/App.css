@@ -1,29 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 
-:root {
-  --neon-text-color: #FED128;
-}
-
 * {
   padding: 0;
   margin: 0;
 }
 
-.counter {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  height: 70%;
-}
-.main-light{
+.main-light {
   background-color: white;
   height: 100vh;
 }
-.main-dark{
+
+.main-dark {
   background-color: black;
   height: 100vh;
 }
+
 .body-light {
   font-size: 4rem;
   text-transform: uppercase;
@@ -49,7 +40,6 @@
   outline: none;
 }
 
-/* Animate neon flicker */
 @keyframes flicker {
 
   0%,
@@ -78,7 +68,13 @@
   }
 }
 
-
+.counter {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 70%;
+}
 
 
 
