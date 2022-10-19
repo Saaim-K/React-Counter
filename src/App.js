@@ -13,12 +13,12 @@ function App() {
   return (
     <>
       <div className='navbar'>
-        <h3 className={(isLit) ? 'light' : 'dark'}>Counter {(isLit) ? 'light' : 'dark'}</h3>
+        <h3 className={`body-${(isLit) ? 'light' : 'dark'}`}>Counter {(isLit) ? 'light' : 'dark'}</h3>
         <button onClick={toggle}>Toggle Theme</button>
 
       </div>
       <div className='counter'>
-        <h1 className={`body-${(isLit) ? 'light' : 'dark'} head`}>Counter {counter}</h1>
+        <h1 className={`body-${(isLit) ? 'light' : 'dark'}`}>Counter {counter}</h1>
         <div className='btn'>
           <button className="custom-btn btn-12" onClick={increment}><span> + 1 </span><span>INCREMENT</span></button>
           <button className="custom-btn btn-12" onClick={decrement}><span> - 1 </span><span>DECREMENT</span></button>

@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 
+:root {
+  --neon-text-color: #088F8F;
+}
+
+
 * {
   padding: 0;
   margin: 0;
 }
-
-
-
-
-
-
 
 .counter {
   display: flex;
@@ -19,7 +18,7 @@
   height: 80vh;
 }
 
-.head {
+.body-light {
   text-transform: uppercase;
   font-size: 4rem;
   background: linear-gradient(to right, #f32170, #ffeb07, #2196f3, #ff00eb);
@@ -29,6 +28,82 @@
   font-family: 'Comfortaa', cursive;
   margin-bottom: 20px;
 }
+
+.body-dark {
+  font-style: italic;
+  color: #fff;
+  padding: 4rem 6rem 5.5rem;
+  /*   border: 0.4rem solid #fff; */
+  border-radius: 2rem;
+  text-transform: uppercase;
+  animation: flicker 1.5s infinite alternate;
+}
+
+.body-dark::-moz-selection {
+  color: var(--neon-text-color);
+}
+
+.body-dark::selection {
+  color: var(--neon-text-color);
+}
+
+.body-dark:focus {
+  outline: none;
+}
+
+/* Animate neon flicker */
+@keyframes flicker {
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+
+    text-shadow:
+      -0.2rem -0.2rem 1rem #fff,
+      0.2rem 0.2rem 1rem #fff,
+      0 0 2rem var(--neon-text-color),
+      0 0 4rem var(--neon-text-color),
+      0 0 6rem var(--neon-text-color),
+      0 0 8rem var(--neon-text-color),
+      0 0 10rem var(--neon-text-color);
+
+    box-shadow:
+      0 0 .5rem #fff,
+      inset 0 0 .5rem #fff,
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+    box-shadow: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .btn {
   width: 25%;
