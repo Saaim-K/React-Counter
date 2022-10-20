@@ -15,14 +15,14 @@
   height: 100vh;
 }
 
-.navbar{
+.navbar {
   display: flex;
   width: 90%;
   border: 1px solid green;
   justify-content: space-between;
 }
 
-.head{
+.head {
   color: red;
   margin-left: 150px;
 }

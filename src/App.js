@@ -14,7 +14,7 @@ function App() {
     <>
       <div className={`main-${(isLit) ? 'light' : 'dark'}`}>
         <div className='navbar'>
-          <h3 className={`head-${(isLit) ? 'light' : 'dark'} head` }>Counter</h3>
+          <h3 className={`head-${(isLit) ? 'light' : 'dark'} head`}>Counter</h3>
           <button onClick={toggle}>Toggle Theme</button>
         </div>
         <div className='counter'>
