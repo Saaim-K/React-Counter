@@ -18,7 +18,6 @@
 .navbar {
   display: flex;
   width: 90%;
-  border: 1px solid green;
   justify-content: space-between;
 }
 
